@@ -91,7 +91,6 @@ Download the weight form https://drive.google.com/drive/folders/1HycEORHhoP_B9bD
 
 ## Testing 
 
-```shell
 python measure_test.py 
 
 ### 📝 License
@@ -101,8 +100,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 # 🙏 Acknowledgments
 
 We thank the participating hospitals and sonographers who contributed data and expertise to this project.
-
-
 
 # Code Reference 
   - [detectron2](https://github.com/facebookresearch/detectron2)
