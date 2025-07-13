@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-![Fetal Ultrasound AI Workflow](fetal_ai_overview.pdf)  <!-- 本地图片示例 -->
+![Fetal Ultrasound AI Workflow](./fetal_ai_overview.pdf)  <!-- 本地图片示例 -->
 
 This repository contains an AI-powered assistant for automated fetal biometry measurement and abnormality detection in prenatal ultrasound examinations. The system helps address critical challenges in prenatal care by:
 
