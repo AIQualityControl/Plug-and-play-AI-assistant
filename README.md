@@ -95,11 +95,11 @@ Download the weight form https://drive.google.com/drive/folders/1HycEORHhoP_B9bD
 ```shell
 python measure_test.py \
 
-## 📝 License
+# 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+# 🙏 Acknowledgments
 
 We thank the participating hospitals and sonographers who contributed data and expertise to this project.
 
