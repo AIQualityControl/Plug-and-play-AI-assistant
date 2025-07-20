@@ -1,0 +1,335 @@
+2024-11-01 16:52:14 release
+
+Capture Core:
+commit a4b5a505eb22224f28934db9f89f05cee5e32eeb
+Author: whj <2622588457@qq.com>
+Date:   Tue Oct 29 17:04:13 2024 +0800
+
+    优化标尺测量，更新动态链接库
+
+commit c352679584c4c572e78908d69791c2188074aa8d
+Merge: 977d19e c4d35f2
+Author: whj <2622588457@qq.com>
+Date:   Mon Oct 28 14:14:22 2024 +0800
+
+    Merge remote-tracking branch 'origin/release' into release
+
+commit 977d19e1763b768f384069e7611fa76937d0f657
+Author: whj <2622588457@qq.com>
+Date:   Mon Oct 28 14:14:02 2024 +0800
+
+    优化频谱时间标尺截取；优化多普勒检测,更新动态链接库
+
+commit c4d35f2f946d5be21ef17cfb0b8e043eda89a6b3
+Author: pt <1638499290@qq.com>
+Date:   Mon Oct 21 15:51:43 2024 +0800
+
+    增加个参数
+
+commit 9b6c0b12358b8ec4b1e1b60e7c648e7c299114d9
+Author: pt <1638499290@qq.com>
+Date:   Mon Oct 21 12:56:25 2024 +0800
+
+    #112807 fix bug
+
+commit 05ec255ac03476f2404f6d9c5bcb7f328fc2a0c4
+Author: whj <2622588457@qq.com>
+Date:   Sat Oct 19 21:31:45 2024 +0800
+
+    更新ruler_recognizer.so
+
+commit 91132c6ee603450267e36d9b350c6906c883473c
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Thu Oct 17 22:00:15 2024 +0800
+
+    update: 同时保存两份annotation对hadlock和intergrowth
+
+commit 7f357f22170c74e235690db20af132270292231a
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Oct 15 17:36:22 2024 +0800
+
+    fix bug: 在接收上一个病人的病例时，清空字典
+
+commit fb93b72ab73f83c9af9af0c9442fa6a5d3f78882
+Merge: 6dac7b0 3ca89f6
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Oct 15 16:16:13 2024 +0800
+
+    Merge remote-tracking branch 'origin/release' into release
+
+commit 6dac7b0f51f6dc07b88b444c31e5c14f02951e8a
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Oct 15 16:15:37 2024 +0800
+
+    update: commit_info.txt
+
+commit 3ca89f60949ead90999ae1752654d3630858e703
+Author: whj <2622588457@qq.com>
+Date:   Tue Oct 15 15:46:38 2024 +0800
+
+    修改频谱测量:computeVariance函数，更新动态链接库
+
+common:
+commit 9e91188c1dc5c5404e2fea676c7f1532f553f7db
+Merge: 98f4d50 967bdc7
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Fri Nov 1 16:15:50 2024 +0800
+
+    同步release
+
+<<<<<<< HEAD
+commit 4d890492b4aad913b058cbefd198d71ada508fbd
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Sun Sep 29 14:54:20 2024 +0800
+
+    update: 在读取config.json时，应该只保留machine_type，不应该出现ruler_type或者ruler，容易造成config.json中的歧义
+
+commit c2e7aa6c5d5f62990d2054f69edee2c69106e71f
+Author: liu-jt <2386937302@qq.com>
+Date:   Thu Sep 26 19:24:23 2024 +0800
+
+    CRL新模型
+
+commit 8749af33e2f2620548f503943ec0a7edaf42beac
+Merge: 60a79a4 01c0259
+Author: liu-jt <2386937302@qq.com>
+Date:   Thu Sep 26 18:26:08 2024 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 01c0259abda40189c1294c777ab9ed6eab8895d6
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Thu Sep 26 18:07:54 2024 +0800
+
+    bug：一些错误的覆盖
+
+commit 60a79a4e7d4f0e1b76b0f1b02be0bead7b82e316
+Author: liu-jt <2386937302@qq.com>
+Date:   Wed Sep 25 22:26:27 2024 +0800
+
+    NT、CRL新模型提交
+
+commit 9d789d518f34f0334f1f64653fad853f57b96133
+Author: liu-jt <2386937302@qq.com>
+Date:   Wed Sep 25 11:59:59 2024 +0800
+
+    妇科早孕期测量优化
+
+commit 3f0860ce32788debdb7a5176e8e7ce3654b68bee
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Wed Sep 25 11:31:53 2024 +0800
+
+    fix error: 对于for循环而言,i的下标不应随着list的pop而增加,否则出现越界错误
+
+commit 5c17243833db36c28b497b8e95a27469142b2baa
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Sep 24 21:21:59 2024 +0800
+
+    update：修复使用甲状腺短视频的报错，重命名VideoClip为BaseVideoClip
+
+QcDetection:
+commit 65c76181c6bc75a278ce39cf4e0925cac1778f94
+Author: liu-jt <2386937302@qq.com>
+Date:   Wed Sep 25 11:59:57 2024 +0800
+
+    妇科早孕期测量优化
+
+Biometery measure:
+commit bf4574416f2d1a3c6ac07d769fb401c1666ecd2b
+Author: pt <1638499290@qq.com>
+Date:   Sat Oct 12 20:38:50 2024 +0800
+
+    更新羊水模型，增加检测子图功能辅助判断羊水几幅图
+
+commit 9f021623a08932b7da6e4c4cc35340a3f282fdb1
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Oct 8 21:29:47 2024 +0800
+
+    update: 添加对hadlock和intergrowth-21st同时保存的支持
+
+commit f21d779b4b88a90b9e67f7ea5cdb0bd495b55f1d
+Author: HNU-jc <1142328359@qq.com>
+Date:   Mon Sep 30 17:12:58 2024 +0800
+
+    同步release
+
+commit 2b5081e8e2c43f46b0dacfdf5d3870690d5165e7
+Author: liu-jt <2386937302@qq.com>
+Date:   Fri Sep 27 22:36:52 2024 +0800
+
+    CRL移动测量点算法简化及提高鲁棒性
+
+commit 3a102cfd29ff3abce737fabf1a341feb10b3b483
+Author: liu-jt <2386937302@qq.com>
+Date:   Thu Sep 26 14:53:31 2024 +0800
+
+    NT、CRL后处理调整
+
+commit 84bb2dbb8068cffc5ec1833875dd5ffecc09a0f5
+Author: liu-jt <2386937302@qq.com>
+Date:   Wed Sep 25 11:59:57 2024 +0800
+
+    妇科早孕期测量优化
+=======
+commit 98f4d5083ee271710360935cd112e649eeececeb
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Fri Nov 1 16:14:39 2024 +0800
+
+    update: 兼容2.1.0以上的torch版本
+
+commit 967bdc7df5b4006d6e80d8df4deaeb760bde62db
+Author: zsx <sbbs87566120@163.com>
+Date:   Thu Oct 31 21:21:19 2024 +0800
+
+    股骨肱骨模型回滚
+
+commit e088b06e0cd74123aaa9b8c33748a86c8cd95b91
+Merge: 7a21e6e 15fafe1
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Oct 29 09:49:29 2024 +0800
+
+    Merge remote-tracking branch 'origin/release' into release
+
+commit 7a21e6ee69872118ec67374fe78afda18fe49079
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Tue Oct 29 09:48:54 2024 +0800
+
+    update: torch_patch兼容低版本python
+
+commit 15fafe1127260ff7ea469c17cab81ee841328db3
+Merge: f8ff10f 496fdcc
+Author: zsx <sbbs87566120@163.com>
+Date:   Mon Oct 28 20:20:50 2024 +0800
+
+    Merge remote-tracking branch 'origin/release' into release
+
+commit 496fdcc82862b1fa03be9ab73daac4b274bbaf6b
+Merge: 301bfba f4aa68f
+Author: 1078263206@qq.com <1753547671@qq.com>
+Date:   Mon Oct 28 19:06:50 2024 +0800
+
+    Merge remote-tracking branch 'origin/release' into release
+
+commit 301bfba811acfadce6b166de4939dea8c6a34193
+Author: 1078263206@qq.com <1753547671@qq.com>
+Date:   Mon Oct 28 19:05:28 2024 +0800
+
+    fix bug: annoset缺少is_dopler属性时，不应该直接访问该属性
+
+commit f4aa68f0649de94f1d79fafd2c0c15c7b8e08815
+Author: xy <2573384055@qq.com>
+Date:   Mon Oct 28 18:42:38 2024 +0800
+
+    早孕期宫颈内口矢状切面模型更新
+
+commit 1cdbe9c9a1c3c27f8a490f0e12c53fb55aa63d39
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Mon Oct 28 16:44:17 2024 +0800
+
+    fix bug: 针对torch.load的1.13.0以上版本做兼容
+
+commit 38867012163b1b21a78d702073e98c3cb2a69c73
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Mon Oct 28 14:52:25 2024 +0800
+
+    fix bug: monkey_patch重写torch.load函数时，多了个括号
+
+commit 772200a7e827340bce7606e8a2d9f0641d6bf6cb
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Mon Oct 28 14:33:44 2024 +0800
+
+    update: 在json中可以保存is_dopler字段
+
+commit 2c573783ba545ef32ff12e7c78816290f4a3c237
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Fri Oct 25 12:01:52 2024 +0800
+
+    update: 对torch.load使用monkey patch方法，支持解密模型文件
+
+commit f8ff10f38bb9c8e13371a281df9054d3aca5c15c
+Merge: e47bc02 e423932
+Author: zsx <sbbs87566120@163.com>
+Date:   Wed Oct 23 15:06:31 2024 +0800
+
+    Merge remote-tracking branch 'origin/release' into release
+
+commit e4239327a97db272719ca0c12a4fef4c7ab108e9
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Fri Oct 18 16:26:41 2024 +0800
+
+    update: 兼容老的bpd字段
+
+commit c87ac47d7297c4523ad7fbe05f275d639323a107
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Thu Oct 17 21:57:37 2024 +0800
+
+    update: 同时保存两份annotation对hadlock和intergrowth
+
+QcDetection:
+commit 1eb4ee148b2b0ca8b3d12658b228b8cca01d25bf
+Author: htk <552021326@qq.com>
+Date:   Fri Nov 1 11:43:54 2024 +0800
+
+    (1)删除重叠的box；（2）根据抓取部位区分股骨和肱骨
+
+commit eae53856a80617be08ffc297c13c6840212804a2
+Author: zsx <sbbs87566120@163.com>
+Date:   Thu Oct 31 20:33:21 2024 +0800
+
+    修改手掌足底后处理结构过滤逻辑，简化结构添加代码
+
+commit 6ea50f324834b3d1dc58ac2bb9fe39a0ba60d114
+Author: zsx <sbbs87566120@163.com>
+Date:   Wed Oct 30 20:22:43 2024 +0800
+
+    添加手掌足底后处理结构过滤
+
+commit 2c531f13351fc041253988f2414bcf1dc315c6d3
+Author: zsx <sbbs87566120@163.com>
+Date:   Thu Oct 24 19:36:58 2024 +0800
+
+    添加手掌足底后处理结构过滤，修正错误逻辑
+
+commit ace11ab48410cde0a7cf2002ac983fcc699f6e90
+Author: zsx <sbbs87566120@163.com>
+Date:   Wed Oct 16 20:29:08 2024 +0800
+
+    调整骨骺偏差减分机制的阈值
+
+Biometery measure:
+commit 0affa7086c32c259a44b59e10f873a9778045e82
+Author: zzj <981112782@qq.com>
+Date:   Thu Oct 31 14:19:36 2024 +0800
+
+    完善分段测量代码
+
+commit 6baaf684aea9d3bc3f2f5fc55e4c5dbb9ed47940
+Author: pt <1638499290@qq.com>
+Date:   Tue Oct 22 20:15:46 2024 +0800
+
+    完善羊水区域判断逻辑
+
+commit e0e86d5983d38b225d5773a6031d88d43ef0e54b
+Author: preif <2278180796@qq.com>
+Date:   Mon Oct 21 17:10:48 2024 +0800
+
+    心脏测量bug修改提交
+
+commit 0f812e69a04130d58afa99b83ff15d43d05fc337
+Author: pt <1638499290@qq.com>
+Date:   Mon Oct 21 12:58:48 2024 +0800
+
+    删掉无用注释
+
+commit e9278cce51fea43794a4f5cab5fd92f599e14e53
+Author: sjlljs176 <sjlljs_176@163.com>
+Date:   Thu Oct 17 21:59:48 2024 +0800
+
+    update: 同时保存两份annotation对hadlock和intergrowth
+
+commit a3281c47f383bfc6c5c6a729ed622188f69f022e
+Author: preif <2278180796@qq.com>
+Date:   Wed Oct 16 16:47:17 2024 +0800
+
+    心脏测量加上椭圆拟合
+>>>>>>> release

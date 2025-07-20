@@ -1,0 +1,48 @@
+{
+    "dicom_node": {
+        "AEC": "ACME1",
+        "AET": "ACME_STORE",
+        "IP": "127.0.0.1",
+        "PORT": 104
+    },
+    "show_detection_roi": true,
+    "show_seg_roi": true,
+    "save_to_db": false,
+    "save_video": true,
+    "debug": false,
+    "load_model": true,
+    "replace_task": false,
+    "detection_with_thread": true,
+    "gpu_id": 0,
+    "log_level": "INFO",
+    "check_cont_frames": true,
+    "correct_CRL": true,
+    "measure_heart_spine": false,
+    "measure_mode": "intergrowth-21st",
+    "fetal_kind": [
+        "甲状腺"
+    ],
+    "ruler_type": [],
+    "video_card_crop": true,
+    "roi": [
+        0,
+        89,
+        1260,
+        821
+    ],
+    "machine_type": "SonoScape_P60CV",
+    "shared_memory": {
+        "video_shape": [
+            1080,
+            1920,
+            3
+        ],
+        "image_queue_length": 8,
+        "display_queue_length": 16,
+        "image_queue_name": "image_queue",
+        "display_queue_name": "display_queue"
+    },
+    "show_annotations": true,
+    "show_gt": false,
+    "commit_time": "2024-11-01 16:52:14 release"
+}
