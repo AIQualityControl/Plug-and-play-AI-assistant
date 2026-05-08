@@ -1,0 +1,31 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\Users\guang\Desktop\measure-data\nt\yolo  # dataset root dir
+train: train2017.txt  # train images (relative to 'path') 118287 images
+val: val2017.txt  # val images (relative to 'path') 5000 images
+test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: 鼻骨
+  1: 鼻尖和鼻前皮肤
+  2: 上颌骨
+  3: 下颌骨呈圆点状
+  4: 下颌骨呈长条形
+  5: 间脑
+  6: 菱脑
+  7: 生殖器
+  8: 侧脑室
+  9: 头
+  10: 胸
+  11: 腹
+  12: 臀
+  13: 颈后皮肤透明层

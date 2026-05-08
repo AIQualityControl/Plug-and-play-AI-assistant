@@ -1,0 +1,1 @@
+mklink /D deep_models E:\质控系统代码\QcDetection\deep_models

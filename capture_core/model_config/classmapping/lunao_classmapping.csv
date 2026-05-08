@@ -1,0 +1,22 @@
+standard_cranial vault transverse plane,0
+non-standard_cranial vault transverse plane,1
+standard_cavum septi pellucidi horizontal transverse plane,2
+non-standard_cavum septi pellucidi horizontal transverse plane,3
+standard_thalamic horizontal transverse plane,4
+non-standard_thalamic horizontal transverse plane,5
+standard lateral ventricular transverse plane,6
+non-standard lateral ventricular transverse plane,7
+standard cerebellar transverse plane,8
+non-standard cerebellar transverse plane,9
+cavum septi pellucidi,10
+choroid plexus,11
+cerebral falx,12
+thalamic,13
+lateral cerebral sulcus,14
+cerebellum,15
+posterior fossa cistern,16
+parieto-occipital sulcus,17
+posterior horn of lateral ventricle,18
+genu of corpus callosum,19
+splenium of corpus callosum,20
+body of lateral ventricle,21
