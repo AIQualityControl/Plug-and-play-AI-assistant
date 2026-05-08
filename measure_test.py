@@ -224,9 +224,8 @@ if __name__ == '__main__':
     # from PySide6.QtGui import QGuiApplication
     _ = QGuiApplication([''])
 
-    # root_path = r"femur_images/Testing_femur1.jpg"
-    # root_path = r"femur_images/20240311_183347_8680.avi"
-    root_path = r"femur_images/bone_dm_demo1.avi"
+    root_path = r"femur_images/Testing_femur1.jpg"
+    # root_path = r"femur_images/bone_dm_demo1.avi"
     tester = MeasureTest(root_path, test_with_annotations=True)
     tester.config['fetal_kind'] = ['second and third trimesters']
     tester.run('femur humerus measurement', save_result=True, show_result=True, gpu_id="cpu")

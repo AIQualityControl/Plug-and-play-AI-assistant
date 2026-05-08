@@ -25,7 +25,7 @@
     "ruler_type": [],
     "video_card_crop": true,
     "roi": [
-        300, 89, 1260, 821
+        0, 60, 1260, 821
     ],
     "machine_type": "SonoScape_P60CV",
     "shared_memory": {

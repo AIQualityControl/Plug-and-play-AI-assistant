@@ -1,0 +1,3 @@
+{"config": {}, "annotations": {
+"Testing_femur1.jpg":{"plane_type": "femur humerus measurement", "class_score": 0.0, "std_type": "nonstandard", "measure_results": {"type": "fl", "name": "", "score": 0.0, "vertex": [[343.4187808506827, 430.7295378394846], [593.152272309275, 384.32713225635496]], "measure_fl": 3.4958623932662096, "ruler_info": {"startX": 14, "endX": 14, "startY": 79, "endY": 762, "count": 47, "rulerUnit": 0.01376281112737921}}}
+}}
